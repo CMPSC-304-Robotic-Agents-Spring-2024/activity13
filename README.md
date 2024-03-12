@@ -14,6 +14,14 @@ Get the turtlebot and the dock out of its box. Plug in the dock and place the tu
 
 While you are waiting for the robot to start up, get the router out and plug it in. Find a linux laptop for the turtlebot and connect the laptop to the router (name and password are on the router). Turtlebot should automatically connect to the router.
 
+Try running `ros2` commands to see what nodes, services and topics are running. It might be helpful to run these and commands to see parameters and actions as you interact with the `teleop`.
+
+`ros2 node list`
+
+`ros2 topic list`
+
+`ros2 service list`
+
 Now, either follow instructions on [Turtlebot Lite Section](#turtlebot-lite) or [Turtlebot Standard Section](#turtlebot-standard), depending on the robot your team has.
 
 #### Turtlebot Lite
